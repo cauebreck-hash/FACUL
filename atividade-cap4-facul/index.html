@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fintech Dashboard</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-slate-100">
+
+    <header class="bg-slate-900 text-white p-5 shadow-lg">
+        <div class="container mx-auto">
+            <h1 class="text-3xl font-bold">Fintech</h1>
+            <p class="text-slate-300">Controle Financeiro Inteligente</p>
+        </div>
+    </header>
+
+    <main class="container mx-auto p-6">
+
+        <section class="bg-gradient-to-r from-blue-900 to-slate-900 text-white p-8 rounded-3xl shadow-xl mb-8">
+            <h2 class="text-4xl font-bold">Dashboard Financeiro</h2>
+            <p class="text-slate-300 mt-2">
+                Acompanhe suas finanças em tempo real
+            </p>
+        </section>
+
+        <section class="grid md:grid-cols-4 gap-6 mb-8">
+
+            <div class="card bg-blue-500">
+                <h3>Receitas Totais</h3>
+                <p>R$ 20.000,00</p>
+            </div>
+
+            <div class="card bg-red-500">
+                <h3>Gastos Totais</h3>
+                <p>R$ 14.500,00</p>
+            </div>
+
+            <div class="card bg-green-500">
+                <h3>Saldo Disponível</h3>
+                <p>R$ 5.500,00</p>
+            </div>
+
+            <div class="card bg-purple-500">
+                <h3>Metas</h3>
+                <p>3 de 5</p>
+            </div>
+
+        </section>
+
+        <section class="grid md:grid-cols-2 gap-6">
+
+            <div class="bg-white rounded-3xl p-6 shadow-lg">
+                <h3 class="titulo-card">Gastos por Categoria</h3>
+
+                <table class="w-full mt-5">
+                    <tr>
+                        <td>Alimentação</td>
+                        <td>R$ 1.200</td>
+                    </tr>
+
+                    <tr>
+                        <td>Transporte</td>
+                        <td>R$ 800</td>
+                    </tr>
+
+                    <tr>
+                        <td>Moradia</td>
+                        <td>R$ 3.500</td>
+                    </tr>
+
+                    <tr>
+                        <td>Lazer</td>
+                        <td>R$ 700</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="bg-white rounded-3xl p-6 shadow-lg">
+
+                <h3 class="titulo-card">Últimas Transações</h3>
+
+                <ul class="space-y-4 mt-5">
+
+                    <li class="flex justify-between">
+                        <span>Salário</span>
+                        <span class="text-green-600 font-bold">
+                            + R$ 5.000
+                        </span>
+                    </li>
+
+                    <li class="flex justify-between">
+                        <span>Mercado</span>
+                        <span class="text-red-600 font-bold">
+                            - R$ 450
+                        </span>
+                    </li>
+
+                    <li class="flex justify-between">
+                        <span>Gasolina</span>
+                        <span class="text-red-600 font-bold">
+                            - R$ 320
+                        </span>
+                    </li>
+
+                    <li class="flex justify-between">
+                        <span>Freelance</span>
+                        <span class="text-green-600 font-bold">
+                            + R$ 1.500
+                        </span>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
